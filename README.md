@@ -17,7 +17,7 @@ A Python-based Packet Analyzer Tool for educational purposes to analyze network 
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/yourusername/packet-analyzer.git
+    https://github.com/0xCyberMind/PRODIGY_CS_05.git
   
 2. **Install Dependencies (if required):** 
 
@@ -27,7 +27,7 @@ A Python-based Packet Analyzer Tool for educational purposes to analyze network 
 
 3. **Run the Script:**
       ```bash
-       python packet_analyzer.py
+       python task_05.py
          ```
 4. **Start Sniffing:**
 
@@ -37,13 +37,14 @@ A Python-based Packet Analyzer Tool for educational purposes to analyze network 
 
 5. **Stop Sniffing:**
    
-         Press Stop Sniffing to stop the packet capture process.
+      Press Stop Sniffing to stop the packet capture process.
       
-6.**Clear Logs:**
+6. **Clear Logs:**
 
-     Press Wipe Log to clear the captured packet log.
+    Press Wipe Log to clear the captured packet log.
 
 ### Example of Captured Packet Log
+
      ```bash
        --- Sniffed Packet ---
        From: 192.168.1.5
@@ -53,10 +54,11 @@ A Python-based Packet Analyzer Tool for educational purposes to analyze network 
        Payload (Hex): 4500002f1c4640004006b1e6c0a80101c0a8010200d0078fbe4e7ffb820000000000000000...
        --------------------------------------------------
      ```
-### Requirements
+     
+###  Requirements
 
    Python 3.x
-   
+    
    Linux: fcntl for promiscuous mode and network interfaces.
    
    Windows: Admin privileges for raw socket access.
