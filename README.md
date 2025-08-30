@@ -36,7 +36,8 @@ A Python-based Packet Analyzer Tool for educational purposes to analyze network 
       Set a filter (IP or URL) to capture specific traffic.
 
 5. **Stop Sniffing:**
-      Press Stop Sniffing to stop the packet capture process.
+   
+         Press Stop Sniffing to stop the packet capture process.
       
 6.**Clear Logs:**
 
