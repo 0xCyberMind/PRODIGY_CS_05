@@ -21,48 +21,48 @@ A Python-based Packet Analyzer Tool for educational purposes to analyze network 
   
 2. **Install Dependencies (if required):** 
 
-Linux: Ensure your system has the necessary libraries for raw sockets.
-
-Windows: Ensure proper permissions for raw socket access.
+      Linux: Ensure your system has the necessary libraries for raw sockets.
+      
+      Windows: Ensure proper permissions for raw socket access.
 
 3. **Run the Script:**
-   ```bash
-    python packet_analyzer.py
-      ```
+      ```bash
+       python packet_analyzer.py
+         ```
 4. **Start Sniffing:**
 
-Press Start Sniffing to begin capturing packets.
-
-Set a filter (IP or URL) to capture specific traffic.
+      Press Start Sniffing to begin capturing packets.
+      
+      Set a filter (IP or URL) to capture specific traffic.
 
 5. **Stop Sniffing:**
-   Press Stop Sniffing to stop the packet capture process.
-   
+      Press Stop Sniffing to stop the packet capture process.
+      
 6.**Clear Logs:**
 
-  Press Wipe Log to clear the captured packet log.
+     Press Wipe Log to clear the captured packet log.
 
 ### Example of Captured Packet Log
-  ```bash
-    --- Sniffed Packet ---
-    From: 192.168.1.5
-    To: 192.168.1.1
-    Protocol: TCP
-    TTL: 64
-    Payload (Hex): 4500002f1c4640004006b1e6c0a80101c0a8010200d0078fbe4e7ffb820000000000000000...
-    --------------------------------------------------
-  ```
+     ```bash
+       --- Sniffed Packet ---
+       From: 192.168.1.5
+       To: 192.168.1.1
+       Protocol: TCP
+       TTL: 64
+       Payload (Hex): 4500002f1c4640004006b1e6c0a80101c0a8010200d0078fbe4e7ffb820000000000000000...
+       --------------------------------------------------
+     ```
 ### Requirements
 
-Python 3.x
-
-Linux: fcntl for promiscuous mode and network interfaces.
-
-Windows: Admin privileges for raw socket access.
+   Python 3.x
+   
+   Linux: fcntl for promiscuous mode and network interfaces.
+   
+   Windows: Admin privileges for raw socket access.
 
 ### ⚠️ Disclaimer
 
-Always ensure you have explicit permission before sniffing network traffic. Unauthorized packet sniffing is illegal and unethical.
+   Always ensure you have explicit permission before sniffing network traffic. Unauthorized packet sniffing is illegal and unethical.
 
 ### Author: bhaskar uttam 
 
